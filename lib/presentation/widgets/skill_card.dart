@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:nimbus/presentation/widgets/circular_container.dart';
-import 'package:nimbus/presentation/widgets/spaces.dart';
-import 'package:nimbus/values/values.dart';
+import 'package:Anandhu/presentation/widgets/circular_container.dart';
+import 'package:Anandhu/presentation/widgets/spaces.dart';
+import 'package:Anandhu/values/values.dart';
 
 class SkillCardData {
   final String title;

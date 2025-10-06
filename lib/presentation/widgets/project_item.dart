@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nimbus/presentation/widgets/spaces.dart';
-import 'package:nimbus/values/values.dart';
+import 'package:Anandhu/presentation/widgets/spaces.dart';
+import 'package:Anandhu/values/values.dart';
 
 import 'animated_indicator.dart';
 

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:nimbus/presentation/layout/adaptive.dart';
-import 'package:nimbus/presentation/widgets/buttons/nimbus_button.dart';
-import 'package:nimbus/presentation/widgets/buttons/social_button.dart';
-import 'package:nimbus/presentation/widgets/empty.dart';
-import 'package:nimbus/presentation/widgets/nav_item.dart';
-import 'package:nimbus/presentation/widgets/nimbus_vertical_divider.dart';
-import 'package:nimbus/presentation/widgets/spaces.dart';
-import 'package:nimbus/utils/functions.dart';
-import 'package:nimbus/values/values.dart';
+import 'package:Anandhu/presentation/layout/adaptive.dart';
+import 'package:Anandhu/presentation/widgets/buttons/nimbus_button.dart';
+import 'package:Anandhu/presentation/widgets/buttons/social_button.dart';
+import 'package:Anandhu/presentation/widgets/empty.dart';
+import 'package:Anandhu/presentation/widgets/nav_item.dart';
+import 'package:Anandhu/presentation/widgets/nimbus_vertical_divider.dart';
+import 'package:Anandhu/presentation/widgets/spaces.dart';
+import 'package:Anandhu/utils/functions.dart';
+import 'package:Anandhu/values/values.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 const double logoSpaceLeftLg = 40.0;
@@ -36,8 +36,8 @@ class NavSectionWeb extends StatefulWidget {
 class _NavSectionWebState extends State<NavSectionWeb> {
   @override
   Widget build(BuildContext context) {
-   responsiveSize(context, logoSpaceLeftSm, logoSpaceLeftLg);
-   responsiveSize(context, logoSpaceRightSm, logoSpaceRightLg);
+    responsiveSize(context, logoSpaceLeftSm, logoSpaceLeftLg);
+    responsiveSize(context, logoSpaceRightSm, logoSpaceRightLg);
     double contactBtnSpaceLeft = responsiveSize(
       context,
       contactButtonSpaceLeftSm,
@@ -72,16 +72,16 @@ class _NavSectionWebState extends State<NavSectionWeb> {
         child: Row(
           children: [
             // SizedBox(width: logoSpaceLeft),
-            InkWell(
-              onTap: () {},
-              child: Image.asset(
-                ImagePath.LOGO_DARK,
-                height: Sizes.HEIGHT_84,
-                width: Sizes.WIDTH_160,
-              ),
-            ),
-            // SizedBox(width: logoSpaceRight),
-            NimbusVerticalDivider(),
+            // InkWell(
+            //   onTap: () {},
+            //   child: Image.asset(
+            //     ImagePath.LOGO_DARK,
+            //     height: Sizes.HEIGHT_84,
+            //     width: Sizes.WIDTH_160,
+            //   ),
+            // ),
+            // // SizedBox(width: logoSpaceRight),
+            // NimbusVerticalDivider(),
             Spacer(flex: 1),
             ..._buildNavItems(widget.navItems),
             Spacer(flex: menuSpacerRight),
@@ -103,7 +103,7 @@ class _NavSectionWebState extends State<NavSectionWeb> {
             ),
             NimbusVerticalDivider(),
             SizedBox(width: contactBtnSpaceLeft),
-             NimbusButton(
+            NimbusButton(
               buttonTitle: StringConst.CONTACT_ME,
               width: contactBtnWidth,
               onPressed: () => openUrlLink(StringConst.EMAIL_URL),
@@ -158,7 +158,6 @@ class _NavSectionWebState extends State<NavSectionWeb> {
         SocialButton(
           tag: socialItems[index].tag,
           iconData: socialItems[index].iconData,
-          
           onPressed: () => openUrlLink(socialItems[index].url),
         ),
         // NimBusLink(

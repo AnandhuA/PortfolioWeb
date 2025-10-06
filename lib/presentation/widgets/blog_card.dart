@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:nimbus/presentation/layout/adaptive.dart';
-import 'package:nimbus/presentation/widgets/spaces.dart';
-import 'package:nimbus/values/values.dart';
+import 'package:Anandhu/presentation/layout/adaptive.dart';
+import 'package:Anandhu/presentation/widgets/spaces.dart';
+import 'package:Anandhu/values/values.dart';
 
 import 'animated_line_through.dart';
 import 'buttons/animated_nimbus_button.dart';

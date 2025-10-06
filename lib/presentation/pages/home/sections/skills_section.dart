@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:nimbus/presentation/layout/adaptive.dart';
-import 'package:nimbus/presentation/widgets/content_area.dart';
-import 'package:nimbus/presentation/widgets/nimbus_info_section.dart';
-import 'package:nimbus/presentation/widgets/skill_card.dart';
-import 'package:nimbus/presentation/widgets/skill_level.dart';
-import 'package:nimbus/presentation/widgets/spaces.dart';
-import 'package:nimbus/values/values.dart';
+import 'package:Anandhu/presentation/layout/adaptive.dart';
+import 'package:Anandhu/presentation/widgets/content_area.dart';
+import 'package:Anandhu/presentation/widgets/nimbus_info_section.dart';
+import 'package:Anandhu/presentation/widgets/skill_card.dart';
+import 'package:Anandhu/presentation/widgets/skill_level.dart';
+import 'package:Anandhu/presentation/widgets/spaces.dart';
+import 'package:Anandhu/values/values.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 

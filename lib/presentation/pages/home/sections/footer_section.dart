@@ -1,13 +1,13 @@
 import 'package:feather_icons/feather_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:nimbus/presentation/layout/adaptive.dart';
-import 'package:nimbus/presentation/widgets/buttons/nimbus_button.dart';
-import 'package:nimbus/presentation/widgets/content_area.dart';
-import 'package:nimbus/presentation/widgets/buttons/nimbus_button_link.dart';
-import 'package:nimbus/presentation/widgets/spaces.dart';
-import 'package:nimbus/utils/functions.dart';
-import 'package:nimbus/values/values.dart';
+import 'package:Anandhu/presentation/layout/adaptive.dart';
+import 'package:Anandhu/presentation/widgets/buttons/nimbus_button.dart';
+import 'package:Anandhu/presentation/widgets/content_area.dart';
+import 'package:Anandhu/presentation/widgets/buttons/nimbus_button_link.dart';
+import 'package:Anandhu/presentation/widgets/spaces.dart';
+import 'package:Anandhu/utils/functions.dart';
+import 'package:Anandhu/values/values.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 List<FooterItem> footerItems = [
@@ -75,27 +75,27 @@ class _FooterSectionState extends State<FooterSection> {
             },
           ),
           SpaceH20(),
-          InkWell(
-            onTap: () => openUrlLink(StringConst.WEB_GENIUS_LAB_URL),
-            child: RichText(
-              text: TextSpan(
-                text: StringConst.RIGHTS_RESERVED + " ",
-                style: footerTextStyle,
-                children: [
-                  TextSpan(text: StringConst.DESIGNED_BY + " "),
-                  TextSpan(
-                    text: StringConst.WEB_GENIUS_LAB,
-                    style: footerTextStyle?.copyWith(
-                      decoration: TextDecoration.underline,
-                      fontWeight: FontWeight.w900,
-                      color: AppColors.black,
-                    ),
-                  ),
-                ],
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ),
+          // InkWell(
+          //   onTap: () => openUrlLink(StringConst.WEB_GENIUS_LAB_URL),
+          //   child: RichText(
+          //     text: TextSpan(
+          //       text: StringConst.RIGHTS_RESERVED + " ",
+          //       style: footerTextStyle,
+          //       children: [
+          //         TextSpan(text: StringConst.DESIGNED_BY + " "),
+          //         TextSpan(
+          //           text: StringConst.WEB_GENIUS_LAB,
+          //           style: footerTextStyle?.copyWith(
+          //             decoration: TextDecoration.underline,
+          //             fontWeight: FontWeight.w900,
+          //             color: AppColors.black,
+          //           ),
+          //         ),
+          //       ],
+          //     ),
+          //     textAlign: TextAlign.center,
+          //   ),
+          // ),
           // NimBusLink(
           //   url: StringConst.WEB_GENIUS_LAB_URL,
           //   child: RichText(
@@ -123,23 +123,20 @@ class _FooterSectionState extends State<FooterSection> {
             children: [
               Expanded(
                 child: Center(
-                  child:InkWell(
-                    onTap: () => openUrlLink(StringConst.DAVID_LEGEND_URL),
-                    child: RichText(
-                      text: TextSpan(
-                        text: StringConst.BUILT_BY + " ",
-                        style: footerTextStyle,
-                        children: [
-                          TextSpan(
-                            text: StringConst.DAVID_COBBINA + ". ",
-                            style: footerTextStyle?.copyWith(
-                              decoration: TextDecoration.underline,
-                              fontWeight: FontWeight.w900,
-                              color: AppColors.black,
-                            ),
+                  child: RichText(
+                    text: TextSpan(
+                      text: StringConst.BUILT_BY + " ",
+                      style: footerTextStyle,
+                      children: [
+                        TextSpan(
+                          text: StringConst.DAVID_COBBINA + ". ",
+                          style: footerTextStyle?.copyWith(
+                            decoration: TextDecoration.underline,
+                            fontWeight: FontWeight.w900,
+                            color: AppColors.black,
                           ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                   ),
                   //  NimBusLink(
@@ -166,30 +163,30 @@ class _FooterSectionState extends State<FooterSection> {
             ],
           ),
           SpaceH4(),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(StringConst.MADE_IN_GHANA, style: footerTextStyle),
-              SpaceW4(),
-              ClipRRect(
-                borderRadius: BorderRadius.all(const Radius.circular(20)),
-                child: Image.asset(
-                  ImagePath.GHANA_FLAG,
-                  width: Sizes.WIDTH_16,
-                  height: Sizes.HEIGHT_16,
-                  fit: BoxFit.cover,
-                ),
-              ),
-              SpaceW4(),
-              Text(StringConst.WITH_LOVE, style: footerTextStyle),
-              SpaceW4(),
-              Icon(
-                FontAwesomeIcons.solidHeart,
-                color: AppColors.red,
-                size: Sizes.ICON_SIZE_12,
-              ),
-            ],
-          ),
+          // Row(
+          //   mainAxisAlignment: MainAxisAlignment.center,
+          //   children: [
+          //     // Text(StringConst.MADE_IN_GHANA, style: footerTextStyle),
+          //     SpaceW4(),
+          //     ClipRRect(
+          //       borderRadius: BorderRadius.all(const Radius.circular(20)),
+          //       child: Image.asset(
+          //         ImagePath.GHANA_FLAG,
+          //         width: Sizes.WIDTH_16,
+          //         height: Sizes.HEIGHT_16,
+          //         fit: BoxFit.cover,
+          //       ),
+          //     ),
+          //     SpaceW4(),
+          //     Text(StringConst.WITH_LOVE, style: footerTextStyle),
+          //     SpaceW4(),
+          //     Icon(
+          //       FontAwesomeIcons.solidHeart,
+          //       color: AppColors.red,
+          //       size: Sizes.ICON_SIZE_12,
+          //     ),
+          //   ],
+          // ),
           SpaceH20(),
         ],
       ),
@@ -262,8 +259,8 @@ class _FooterSectionState extends State<FooterSection> {
                   Text(
                     StringConst.LETS_TALK,
                     textAlign: TextAlign.center,
-                    style:
-                        textTheme.headlineMedium?.copyWith(color: AppColors.white),
+                    style: textTheme.headlineMedium
+                        ?.copyWith(color: AppColors.white),
                   ),
                   SpaceH60(),
                   ..._buildFooterItems(footerItems),
@@ -326,7 +323,8 @@ class _FooterSectionState extends State<FooterSection> {
                 Spacer(flex: 2),
                 Text(
                   StringConst.LETS_TALK,
-                  style: textTheme.displaySmall?.copyWith(color: AppColors.white),
+                  style:
+                      textTheme.displaySmall?.copyWith(color: AppColors.white),
                 ),
                 Spacer(),
                 Row(

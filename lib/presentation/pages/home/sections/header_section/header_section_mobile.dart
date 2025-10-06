@@ -1,11 +1,11 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:nimbus/presentation/layout/adaptive.dart';
-import 'package:nimbus/presentation/pages/home/sections/header_section/widgets.dart';
-import 'package:nimbus/presentation/widgets/buttons/nimbus_button.dart';
-import 'package:nimbus/presentation/widgets/content_area.dart';
-import 'package:nimbus/presentation/widgets/spaces.dart';
-import 'package:nimbus/values/values.dart';
+import 'package:Anandhu/presentation/layout/adaptive.dart';
+import 'package:Anandhu/presentation/pages/home/sections/header_section/widgets.dart';
+import 'package:Anandhu/presentation/widgets/buttons/nimbus_button.dart';
+import 'package:Anandhu/presentation/widgets/content_area.dart';
+import 'package:Anandhu/presentation/widgets/spaces.dart';
+import 'package:Anandhu/values/values.dart';
 
 const double bodyTextSizeLg = 16.0;
 const double bodyTextSizeSm = 14.0;
@@ -77,7 +77,6 @@ class _HeaderSectionMobileState extends State<HeaderSectionMobile>
               children: [
                 Stack(
                   children: [
-                  
                     Positioned(
                       left: -(sizeOfGoldenGlobe / 3),
                       top: blobOffset + dottedGoldenGlobeOffset,
@@ -137,7 +136,8 @@ class _HeaderSectionMobileState extends State<HeaderSectionMobile>
                                   TypewriterAnimatedText(
                                     StringConst.INTRO,
                                     speed: Duration(milliseconds: 60),
-                                    textStyle: textTheme.displayMedium?.copyWith(
+                                    textStyle:
+                                        textTheme.displayMedium?.copyWith(
                                       fontSize: headerIntroTextSize,
                                     ),
                                   ),
@@ -155,7 +155,8 @@ class _HeaderSectionMobileState extends State<HeaderSectionMobile>
                                   TypewriterAnimatedText(
                                     StringConst.POSITION,
                                     speed: Duration(milliseconds: 80),
-                                    textStyle: textTheme.displayMedium?.copyWith(
+                                    textStyle:
+                                        textTheme.displayMedium?.copyWith(
                                       fontSize: headerIntroTextSize,
                                       color: AppColors.primaryColor,
                                       height: 1.2,
@@ -224,11 +225,11 @@ class _HeaderSectionMobileState extends State<HeaderSectionMobile>
                                   onPressed: () {},
                                 ),
                                 SpaceW16(),
-                                  NimbusButton(
+                                NimbusButton(
                                   width: buttonWidth,
                                   height: buttonHeight,
                                   buttonTitle: StringConst.HIRE_ME_NOW,
-                                  onPressed: (){},
+                                  onPressed: () {},
                                 ),
                                 // NimBusButtonLink(
                                 //   width: buttonWidth,

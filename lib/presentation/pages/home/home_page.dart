@@ -1,25 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:nimbus/presentation/layout/adaptive.dart';
-import 'package:nimbus/presentation/pages/home/sections/about_me_section.dart';
-import 'package:nimbus/presentation/pages/home/sections/awards_section.dart';
-import 'package:nimbus/presentation/pages/home/sections/blog_section.dart';
-import 'package:nimbus/presentation/pages/home/sections/footer_section.dart';
-import 'package:nimbus/presentation/pages/home/sections/header_section/header_section.dart';
-import 'package:nimbus/presentation/pages/home/sections/nav_section/nav_section_mobile.dart';
-import 'package:nimbus/presentation/pages/home/sections/nav_section/nav_section_web.dart';
-import 'package:nimbus/presentation/pages/home/sections/projects_section.dart';
-import 'package:nimbus/presentation/pages/home/sections/skills_section.dart';
-import 'package:nimbus/presentation/pages/home/sections/statistics_section.dart';
-import 'package:nimbus/presentation/widgets/app_drawer.dart';
-import 'package:nimbus/presentation/widgets/nav_item.dart';
-import 'package:nimbus/presentation/widgets/spaces.dart';
-import 'package:nimbus/utils/functions.dart';
-import 'package:nimbus/values/values.dart';
+import 'package:Anandhu/presentation/layout/adaptive.dart';
+import 'package:Anandhu/presentation/pages/home/sections/about_me_section.dart';
+import 'package:Anandhu/presentation/pages/home/sections/awards_section.dart';
+import 'package:Anandhu/presentation/pages/home/sections/blog_section.dart';
+import 'package:Anandhu/presentation/pages/home/sections/footer_section.dart';
+import 'package:Anandhu/presentation/pages/home/sections/header_section/header_section.dart';
+import 'package:Anandhu/presentation/pages/home/sections/nav_section/nav_section_mobile.dart';
+import 'package:Anandhu/presentation/pages/home/sections/nav_section/nav_section_web.dart';
+import 'package:Anandhu/presentation/pages/home/sections/projects_section.dart';
+import 'package:Anandhu/presentation/pages/home/sections/skills_section.dart';
+import 'package:Anandhu/presentation/pages/home/sections/statistics_section.dart';
+import 'package:Anandhu/presentation/widgets/app_drawer.dart';
+import 'package:Anandhu/presentation/widgets/nav_item.dart';
+import 'package:Anandhu/presentation/widgets/spaces.dart';
+import 'package:Anandhu/utils/functions.dart';
+import 'package:Anandhu/values/values.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:visibility_detector/visibility_detector.dart';
-
-
 
 class HomePage extends StatefulWidget {
   @override
@@ -46,8 +44,8 @@ class _HomePageState extends State<HomePage>
     NavItemData(name: StringConst.ABOUT, key: GlobalKey()),
     NavItemData(name: StringConst.SKILLS, key: GlobalKey()),
     NavItemData(name: StringConst.PROJECTS, key: GlobalKey()),
-    NavItemData(name: StringConst.AWARDS, key: GlobalKey()),
-    NavItemData(name: StringConst.BLOG, key: GlobalKey()),
+    // NavItemData(name: StringConst.AWARDS, key: GlobalKey()),
+    // NavItemData(name: StringConst.BLOG, key: GlobalKey()),
   ];
 
   @override
@@ -153,6 +151,7 @@ class _HomePageState extends State<HomePage>
                     ],
                   ),
                   SizedBox(height: spacerHeight),
+//----------- project section ---------------------
                   Stack(
                     children: [
                       Positioned(
@@ -190,15 +189,15 @@ class _HomePageState extends State<HomePage>
                       ),
                       Column(
                         children: [
-                          Container(
-                            key: navItems[4].key,
-                            child: AwardsSection(),
-                          ),
+                          // Container(
+                          //   key: navItems[4].key,
+                          //   child: AwardsSection(),
+                          // ),
                           SpaceH40(),
-                          Container(
-                            key: navItems[5].key,
-                            child: BlogSection(),
-                          ),
+                          // Container(
+                          //   key: navItems[5].key,
+                          //   child: BlogSection(),
+                          // ),
                           FooterSection(),
                         ],
                       )

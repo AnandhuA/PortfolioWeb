@@ -7,21 +7,21 @@ class Data {
       iconData: FontAwesomeIcons.github,
       url: StringConst.GITHUB_URL,
     ),
-    SocialButtonData(
-      tag: StringConst.FACEBOOK_URL,
-      iconData: FontAwesomeIcons.facebook,
-      url: StringConst.FACEBOOK_URL,
-    ),
+    // SocialButtonData(
+    //   tag: StringConst.FACEBOOK_URL,
+    //   iconData: FontAwesomeIcons.facebook,
+    //   url: StringConst.FACEBOOK_URL,
+    // ),
     SocialButtonData(
       tag: StringConst.LINKED_IN_URL,
       iconData: FontAwesomeIcons.linkedinIn,
       url: StringConst.LINKED_IN_URL,
     ),
-    SocialButtonData(
-      tag: StringConst.MEDIUM_URL,
-      iconData: FontAwesomeIcons.mediumM,
-      url: StringConst.MEDIUM_URL,
-    ),
+    // SocialButtonData(
+    //   tag: StringConst.MEDIUM_URL,
+    //   iconData: FontAwesomeIcons.mediumM,
+    //   url: StringConst.MEDIUM_URL,
+    // ),
   ];
   static List<SocialButton2Data> socialData2 = [
     SocialButton2Data(
@@ -40,24 +40,24 @@ class Data {
       buttonColor: AppColors.black100,
       iconColor: AppColors.white,
     ),
-    SocialButton2Data(
-      title: StringConst.INSTA,
-      iconData: FontAwesomeIcons.facebook,
-      url: StringConst.FACEBOOK_URL,
-      titleColor: AppColors.yellow300,
-      buttonColor: AppColors.yellow300,
-      iconColor: AppColors.white,
-    ),
+    // SocialButton2Data(
+    //   title: StringConst.INSTA,
+    //   iconData: FontAwesomeIcons.facebook,
+    //   url: StringConst.FACEBOOK_URL,
+    //   titleColor: AppColors.yellow300,
+    //   buttonColor: AppColors.yellow300,
+    //   iconColor: AppColors.white,
+    // ),
   ];
 
   static List<SkillLevelData> skillLevelData = [
     SkillLevelData(
-      skill: StringConst.SKILLS_1,
-      level: 80,
-    ),
-    SkillLevelData(
       skill: StringConst.SKILLS_2,
       level: 90,
+    ),
+    SkillLevelData(
+      skill: StringConst.SKILLS_1,
+      level: 80,
     ),
     SkillLevelData(
       skill: StringConst.SKILLS_3,
@@ -90,7 +90,7 @@ class Data {
       title: StringConst.SKILLS_4,
       flutter: false,
       description: StringConst.SKILLS_4_DESC,
-      iconData: FontAwesomeIcons.jsSquare,
+      iconData: FontAwesomeIcons.squareJs,
       iconColor: Color(0xFFF7e018),
     ),
     SkillCardData(

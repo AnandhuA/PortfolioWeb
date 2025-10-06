@@ -2,7 +2,7 @@ part of values;
 
 class StringConst {
   //strings
-  static const String APP_NAME = "Batool CV";
+  static const String APP_NAME = "Anandhu CV";
 
   //Nav Section
   static const String NAME_ABBREV = "CA";
@@ -16,24 +16,24 @@ class StringConst {
   static const String CONTACT = "Contacts";
 
   static const String CONTACT_ME = "Contact Me";
-  static const String DEV_EMAIL = "scorpion.batool@gmail.com@gmail.com";
+  static const String DEV_EMAIL = "anandhu1407@gmail.com";
   static const String EMAIL_URL = "mailto:<$DEV_EMAIL>?subject=&body=";
 
   //Header Section
-  static const String FIRST_NAME = "Batool";
-  static const String INTRO = "Hi! I'm Syeda Batool Ali -";
+  static const String FIRST_NAME = "Anandhu";
+  static const String INTRO = "Hi! I'm Anandhu  ";
   static const String POSITION = "Mobile App Developer";
   static const String ABOUT_DEV =
-      "I'm certified mobile application developer and have been selected as Google Developer Student Club Lead by Google in 2019-2020";
+      "-------------------1--------------------------";
   static const String ABOUT_ME_1 =
-      "Product Designer and Digital Creative Director working in design field for";
+      "-------------------2--------------------------";
   static const String ABOUT_ME_2 =
-      "13 years so far, specialized in UI/UX, Branding and digital designs.";
+      "-------------------3--------------------------";
   static const String DOWNLOAD_CV = "Download CV";
   static const String EMAIL = "Email";
-  static const String DEV_EMAIL_2 = "scorpion.batool@gmail.com";
+  static const String DEV_EMAIL_2 = "anandhu1407@gmail.com";
   static const String BEHANCE = "LinkedIn";
-  static const String BEHANCE_ID = "linkedin.com/in/batoolali565";
+  static const String BEHANCE_ID = "https://www.linkedin.com/in/anandhuav/";
   static const String HIRE_ME_NOW = "Hire Me Now";
   static const String UI_UX = "Mobile Developer";
   static const String UI_UX_DESC = "Develop professional applications";
@@ -54,17 +54,17 @@ class StringConst {
   static const String THERE = "There!";
   static const String ABOUT_ME = "about me";
   static const String ABOUT_ME_DESC =
-      "Expert Mobile Application Developer | Flutter Developer | React-native Developer | Android | iOS | Software Engineer | Developer Student Club (DSC) Lead by Google Developers \n I can provide you highly professional applications with fast performance, a friendly and attractive user interface, efficiency, usability, security, and safety within your budget.";
+      "Expert Mobile Application Developer | Flutter Developer | Android | iOS | Software Engineer \n I can provide you highly professional applications with fast performance, a friendly and attractive user interface, efficiency, usability, security, and safety within your budget.";
   static const String ABOUT_ME_DESC_1 =
-      "Product Designer and Digital Creative Director working in design ";
+      "-------------------------------4--------------------------------";
   static const String ABOUT_ME_DESC_2 =
-      "field for 13 years so far, specialized in UI/UX, Branding and digital";
+      "-------------------------------5-------------------------------";
   static const String ABOUT_ME_DESC_3 =
-      "designs. These are the words we live by in everything we do. Every";
+      "-------------------------------6-------------------------------";
   static const String ABOUT_ME_DESC_4 =
-      "story we tell, every brand we build, and every interaction we";
+      "-------------------------------7-------------------------------";
   static const String ABOUT_ME_DESC_5 =
-      "create must not only look beautiful. beautifully, too.";
+      "-------------------------------8-------------------------------";
   static const String CREATIVE_DESIGN = "Need Professional Developer?";
   static const String HELP = "I can Help You!";
   static const String FOLLOW_ME_1 = "You can also follow me here:";
@@ -73,7 +73,7 @@ class StringConst {
 
   //Skills Section
   static const String MY_SKILLS = "my skills";
-  static const String SKILLS_TITLE_1 = "What My Programming";
+  static const String SKILLS_TITLE_1 = "What My ";
   static const String SKILLS_TITLE_2 = "Skills Include";
   static const String SKILLS_DESC =
       "These are the words we live by in everything we do. Every story we tell, every brand we build, and every interaction we create must not only look beautiful but also reveals your professionalism.";
@@ -180,16 +180,16 @@ class StringConst {
   //Footer Section
   static const String LETS_TALK = "Let's Talk!";
   static const String PHONE_ME = "Phone Me";
-  static const String PHONE_NUMBER = "+92 334 2219404";
+  static const String PHONE_NUMBER = "+91 9847160729";
   static const String MAIL_ME = "Mail Me";
   static const String FOLLOW_ME_2 = "Follow Me";
   static const String FOLLOW_ME_2_URL = "behance.net/nimbus2000";
-  static const String RIGHTS_RESERVED = "© 2021 All rights reserved";
+  // static const String RIGHTS_RESERVED = "© 2021 All rights reserved";
   static const String BUILT_BY = "Built with Flutter by";
-  static const String DAVID_COBBINA = "David Cobbina";
-  static const String DESIGNED_BY = "Designed by";
-  static const String WEB_GENIUS_LAB = "WebGeniusLab";
-  static const String MADE_IN_GHANA = "Made in";
+  static const String DAVID_COBBINA = "Anandhu";
+  // static const String DESIGNED_BY = "Designed by";
+  // static const String WEB_GENIUS_LAB = "WebGeniusLab";
+  // static const String MADE_IN_GHANA = "Made in";
   static const String WITH_LOVE = "with";
   static const String FIND_ME = "Find me on..";
 
@@ -197,10 +197,11 @@ class StringConst {
   static const String WEB_GENIUS_LAB_URL = "https://webgeniuslab.net/";
   static const String BEHANCE_URL = "https://www.behance.net/";
   static const String DRIBBLE_URL = "https://dribbble.com/";
-  static const String LINKED_IN_URL = "https://www.linkedin.com/in/batoolali565";
+  static const String LINKED_IN_URL = "https://www.linkedin.com/in/anandhuav/";
   static const String INSTAGRAM_URL = "https://www.instagram.com/";
-  static const String GITHUB_URL = "https://github.com/batool110";
-  static const String FACEBOOK_URL = "https://www.facebook.com/rizvi.batool.ali";
+  static const String GITHUB_URL = "https://github.com/AnandhuA";
+  static const String FACEBOOK_URL =
+      "https://www.facebook.com/rizvi.batool.ali";
   static const String MEDIUM_URL = "https://scorpion-batool.medium.com/";
   static const String TWITTER_URL = "http://twitter.com/";
   static const String DAVID_LEGEND_URL = "https://davidcobbina.com/#/";

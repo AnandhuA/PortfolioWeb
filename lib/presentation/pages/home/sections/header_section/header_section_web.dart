@@ -1,11 +1,11 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:nimbus/presentation/layout/adaptive.dart';
-import 'package:nimbus/presentation/pages/home/sections/header_section/widgets.dart';
-import 'package:nimbus/presentation/widgets/buttons/nimbus_button.dart';
-import 'package:nimbus/presentation/widgets/content_area.dart';
-import 'package:nimbus/presentation/widgets/spaces.dart';
-import 'package:nimbus/values/values.dart';
+import 'package:Anandhu/presentation/layout/adaptive.dart';
+import 'package:Anandhu/presentation/pages/home/sections/header_section/widgets.dart';
+import 'package:Anandhu/presentation/widgets/buttons/nimbus_button.dart';
+import 'package:Anandhu/presentation/widgets/content_area.dart';
+import 'package:Anandhu/presentation/widgets/spaces.dart';
+import 'package:Anandhu/values/values.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import '../../../../../utils/functions.dart';
 
@@ -168,7 +168,8 @@ class _HeaderSectionWebState extends State<HeaderSectionWeb>
                                   TypewriterAnimatedText(
                                     StringConst.INTRO,
                                     speed: Duration(milliseconds: 60),
-                                    textStyle: textTheme.displayMedium?.copyWith(
+                                    textStyle:
+                                        textTheme.displayMedium?.copyWith(
                                       fontSize: headerIntroTextSize,
                                     ),
                                   ),
@@ -186,7 +187,8 @@ class _HeaderSectionWebState extends State<HeaderSectionWeb>
                                   TypewriterAnimatedText(
                                     StringConst.POSITION,
                                     speed: Duration(milliseconds: 80),
-                                    textStyle: textTheme.displayMedium?.copyWith(
+                                    textStyle:
+                                        textTheme.displayMedium?.copyWith(
                                       fontSize: headerIntroTextSize,
                                       color: AppColors.primaryColor,
                                       height: 1.2,
@@ -208,11 +210,11 @@ class _HeaderSectionWebState extends State<HeaderSectionWeb>
                               ),
                             ),
                             // SpaceH16(),
-                            Image.asset(
-                              'assets/images/google-dev.jpg',
-                              height: sizeOfBlobSm * 0.2,
-                              width: sizeOfBlobSm * 0.5,
-                            ),
+                            // Image.asset(
+                            //   'assets/images/google-dev.jpg',
+                            //   height: sizeOfBlobSm * 0.2,
+                            //   width: sizeOfBlobSm * 0.5,
+                            // ),
                             SpaceH30(),
                             Wrap(
                               // mainAxisSize: MainAxisSize.min,

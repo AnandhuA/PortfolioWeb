@@ -1,8 +1,7 @@
+import 'package:Anandhu/presentation/pages/home/home_page.dart';
+import 'package:Anandhu/values/values.dart';
 import 'package:flutter/material.dart';
 import 'package:layout/layout.dart';
-import 'package:nimbus/presentation/pages/home/home_page.dart';
-import 'package:nimbus/values/values.dart';
-
 import 'app_theme.dart';
 
 void main() {
